@@ -1,0 +1,26 @@
+{
+  "name":                 "tbiv",
+  "version":              "0.0.1",
+  "description":          "",
+  "homepage":             "https://github.com/sjerrys/tbiv",
+  "main":                 "./app.coffee",
+  "author":               "sunchen <sjerrys@gmail.com>",
+  "keywords": [
+    "node"
+  ],
+  "repository": {
+    "type":               "git",
+    "url":                "https://github.com/sjerrys/tbiv.git"
+  },
+  "engines": {
+    "node":               ">= 0.6.0",
+    "npm":                "1"
+  },
+  "dependencies": {
+    "express":             ">= 2.5.1",
+    "mongodb":                ">= 0.9.7-1.4",
+    "request":            ">= 2.9.202",
+    "iconv":              ">=0.1",
+    "pithy":              ">=0.0.4"
+    }
+}

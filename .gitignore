@@ -1,11 +1,46 @@
-lib-cov
-*.seed
+## MAC OS
+.DS_Store
+*.gem
+## TEXTMATE
+*.tmproj
+tmtags
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp
+
+## PROJECT::GENERAL
+coverage
+rdoc
+pkg
 *.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
+
+## PROJECT::SPECIFIC
+
+.project
+*~
+*.diff
+*.patch
+*.psd
+cdn/jquery-mobile/git
+.DS_Store
+cache/
+combined/
+combine/
+
+node_modules
+tmp/
+logs/
+pids/
+
+##app##
+app_config.coffee
+
+
 
 pids
 logs
